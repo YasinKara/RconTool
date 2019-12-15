@@ -9,7 +9,6 @@ namespace YasinK;
     if(PHP_INT_SIZE < 8) critical_error("PHP binary must be x64");
     if(version_compare("7.2.0", PHP_VERSION) > 0) critical_error("Your PHP version must be 7.2.0 or higher version");
 
-    ini_set('memory_limit', '-1');
     date_default_timezone_set('Europe/Istanbul');
     ini_set('memory_limit', '-1');
 
