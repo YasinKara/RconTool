@@ -1,5 +1,5 @@
 @echo off
-TITLE YasinK
+TITLE RCON TOOL
 cd /d %~dp0
 
 if exist bin\php\php.exe (
