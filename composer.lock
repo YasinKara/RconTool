@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d20c65d23e61945fca0088c03705f162",
+    "packages": [
+        {
+            "name": "thedudeguy/rcon",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thedudeguy/PHP-Minecraft-Rcon.git",
+                "reference": "ada4eb08304dfe9562192978444fbfc21a08a9ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thedudeguy/PHP-Minecraft-Rcon/zipball/ada4eb08304dfe9562192978444fbfc21a08a9ca",
+                "reference": "ada4eb08304dfe9562192978444fbfc21a08a9ca",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thedudeguy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Churchwell",
+                    "email": "chris@chrischurchwell.com",
+                    "homepage": "http://chrischurchwell.com"
+                }
+            ],
+            "description": "Simple Rcon class for php.",
+            "homepage": "https://github.com/thedudeguy/PHP-Minecraft-Rcon",
+            "keywords": [
+                "minecraft",
+                "rcon"
+            ],
+            "time": "2017-05-25T06:50:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2",
+        "ext-mysqli": "*",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}
